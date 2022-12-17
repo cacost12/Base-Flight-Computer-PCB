@@ -19,7 +19,7 @@ src: source design files, e.g. schematic and board files
  
 lib: libraries for schematic symbols and footprints
  
-production: files needed for pcb fabrication, e.g. gerbers, profile, drill fi    le
+production: files needed for pcb fabrication, e.g. gerbers, profile, drill file
  
  sim: simulation files 
   
