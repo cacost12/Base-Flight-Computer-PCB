@@ -1,4 +1,4 @@
-<h1>Flight Computer</h1>
+<h1>Flight Computer Lite</h1>
 
 <p><b>Current PCB Revision:</b> 1.0</p>
 <p><b>PCB Part Number:</b> A0007</p>
