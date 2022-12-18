@@ -29,9 +29,4 @@
   (fp_circle (center -0.4318 0) (end -0.4318 0) (layer "F.Fab") (width 0.1) (fill none) (tstamp efcdd32f-164f-478e-8ef0-f8f7ff67e633))
   (pad "1" smd rect (at -0.5588 0) (size 0.6858 0.6096) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 5b93f08e-ce35-4ffb-abc8-9d71dda28fd4))
   (pad "2" smd rect (at 0.5588 0) (size 0.6858 0.6096) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f31567cd-9e17-419c-94e1-37b11cacd5d9))
-  (model "/home/olsport/Documents/SDR/PCB/Flight-Computer/CAD/3Dfiles/L-07C27NJV6T.step"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
 )
