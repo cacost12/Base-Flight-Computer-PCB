@@ -27,3 +27,8 @@ production: files needed for pcb fabrication, e.g. gerbers, profile, drill file
    
  img: images of circuit/footprints for github display 
  </p>
+
+<h2>3D Model: </h2>
+
+<img src="img/Flight-Computer-Lite-TOP.png">
+<img src="img/Flight-Computer-Lite-BOTTOM.png">
