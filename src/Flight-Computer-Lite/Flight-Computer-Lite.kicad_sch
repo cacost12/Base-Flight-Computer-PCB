@@ -5482,6 +5482,12 @@
     (path "/08e34671-5cef-4537-a872-295f12c49849/9b2901cd-e127-4a57-8989-fca560f4e195"
       (reference "#PWR039") (unit 1) (value "Earth") (footprint "")
     )
+    (path "/08e34671-5cef-4537-a872-295f12c49849/65cd79cc-90dc-43aa-bfdb-dd50133738c2"
+      (reference "#PWR040") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/08e34671-5cef-4537-a872-295f12c49849/9f8aa6de-8dca-4c29-add7-012a61550bc6"
+      (reference "#PWR041") (unit 1) (value "Earth") (footprint "")
+    )
     (path "/3a0eb9ea-d6b2-47ee-9241-4e87debf783d"
       (reference "B1") (unit 1) (value "PTS647SM38SMTR2LFS") (footprint "Flight-Computer-Lite:PTS647SM38SMTR2LFS")
     )
@@ -5682,6 +5688,12 @@
     )
     (path "/08e34671-5cef-4537-a872-295f12c49849/f0b8c59b-a56a-44d1-93ed-3242aaf55ee9"
       (reference "R22") (unit 1) (value "10k") (footprint "Flight-Computer-Lite:RES_0603")
+    )
+    (path "/08e34671-5cef-4537-a872-295f12c49849/4a1cf530-373b-4200-b398-f4c9c57c535e"
+      (reference "R23") (unit 1) (value "10k") (footprint "Flight-Computer-Lite:RES_0603")
+    )
+    (path "/08e34671-5cef-4537-a872-295f12c49849/5954ecab-200e-4c12-b20d-50ed1e1a7ea8"
+      (reference "R24") (unit 1) (value "10k") (footprint "Flight-Computer-Lite:RES_0603")
     )
     (path "/6a272d67-8f28-4a32-aefd-bb0ca006d533"
       (reference "TP1") (unit 1) (value "TP") (footprint "Flight-Computer-Lite:TP")
