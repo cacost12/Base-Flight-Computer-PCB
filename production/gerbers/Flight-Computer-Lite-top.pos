@@ -1,4 +1,4 @@
-### Module positions - created on Sun Dec 18 19:34:53 2022 ###
+### Module positions - created on Wed Dec 21 09:32:26 2022 ###
 ### Printed by Pcbnew version (6.0.9)
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -64,6 +64,8 @@ R19       100k                       RES_0603                    174.3710   -89.
 R20       100k                       RES_0603                    184.5564   -86.9188  180.0000  top
 R21       10k                        RES_0603                    176.5554   -94.7420  -90.0000  top
 R22       10k                        RES_0603                    183.3118   -93.6752   90.0000  top
+R23       10k                        RES_0603                    172.4406  -100.2284   90.0000  top
+R24       10k                        RES_0603                    179.7812   -97.2820  180.0000  top
 U1        STM32H750VBTx              STM32H750VBT6               201.7045   -88.1888    0.0000  top
 U2        LMS8117AMP-3.3_NOPB        LMS8117AMP-3.3NOPB          159.8466   -97.4852  180.0000  top
 U3        SST25VF040B-50-4I-S2AE-T   SST25VF040B-50-4I-S2AE-T    202.0824  -104.1400    0.0000  top
