@@ -4257,7 +4257,7 @@
     (property "Value" "Logo" (id 1) (at 132.715 162.56 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Flight-Computer-Lite:Logo" (id 2) (at 135.255 168.275 0)
+    (property "Footprint" "Flight-Computer-Lite:logo_small" (id 2) (at 135.255 168.275 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 135.255 168.275 0)
@@ -4572,7 +4572,7 @@
     (property "Value" "PTS647SM38SMTR2LFS" (id 1) (at 156.845 84.455 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Footprint" "Flight-Computer-Lite:PTS647SM38SMTR2LFS" (id 2) (at 155.575 86.995 0)
+    (property "Footprint" "Flight-Computer:PTS647SM38SMTR2LFS" (id 2) (at 155.575 86.995 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 135.255 71.755 0)
@@ -5489,7 +5489,7 @@
       (reference "#PWR041") (unit 1) (value "Earth") (footprint "")
     )
     (path "/3a0eb9ea-d6b2-47ee-9241-4e87debf783d"
-      (reference "B1") (unit 1) (value "PTS647SM38SMTR2LFS") (footprint "Flight-Computer-Lite:PTS647SM38SMTR2LFS")
+      (reference "B1") (unit 1) (value "PTS647SM38SMTR2LFS") (footprint "Flight-Computer:PTS647SM38SMTR2LFS")
     )
     (path "/08e34671-5cef-4537-a872-295f12c49849/d9bd453e-b189-4848-a121-792de11ddfdf"
       (reference "B2") (unit 1) (value "PTS647SM38SMTR2LFS") (footprint "Flight-Computer-Lite:PTS647SM38SMTR2LFS")
@@ -5597,7 +5597,7 @@
       (reference "J2") (unit 1) (value "Jumper_NO") (footprint "Flight-Computer-Lite:Jumper-NO")
     )
     (path "/03801c8b-e97e-4a0c-9e94-1165c7d4f44f"
-      (reference "LOGO1") (unit 1) (value "Logo") (footprint "Flight-Computer-Lite:Logo")
+      (reference "LOGO1") (unit 1) (value "Logo") (footprint "Flight-Computer-Lite:logo_small")
     )
     (path "/7c69e08f-34c2-4693-a249-5bdef19868db"
       (reference "P1") (unit 1) (value "1546551-2") (footprint "Flight-Computer-Lite:1546551-2")

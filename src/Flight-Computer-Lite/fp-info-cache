@@ -1,4 +1,4 @@
-114828438028243
+138049604578830
 Flight-Computer
 142-0701-851
 
@@ -482,3 +482,101 @@ TS391IYLT
 0
 5
 5
+Flight-Computer-Lite
+logo_small
+
+
+0
+0
+0
+L0003-Wheatstone-Bridge
+12V_power_jack
+12V DC Barrel Jack with a Mounting Pin
+
+0
+3
+3
+L0003-Wheatstone-Bridge
+39299043
+
+
+0
+4
+4
+L0003-Wheatstone-Bridge
+CAP_0603
+1 microFarad Ceramic Capacitor
+
+0
+2
+2
+L0003-Wheatstone-Bridge
+MCP1703T-4002E&slash_DB
+4V Linear Regulator
+
+0
+4
+3
+L0003-Wheatstone-Bridge
+MountingHole_2.1mm
+Mounting Hole 2.1mm, no annular
+mounting hole 2.1mm no annular
+0
+0
+0
+L0003-Wheatstone-Bridge
+PPTC041LFBN-RC
+4 Pin Header
+
+0
+4
+4
+L0003-Wheatstone-Bridge
+RES_0603
+1 kOhm Resistor
+
+0
+2
+2
+L0003-Wheatstone-Bridge
+SM5819PL-TP
+
+
+0
+2
+2
+L0003-Wheatstone-Bridge
+SML-LX1206GC-TR
+Green LED
+
+0
+2
+2
+L0003-Wheatstone-Bridge
+T491A106K010AT
+10 microFarad Tantalum Capacitor
+
+0
+2
+2
+L0003-Wheatstone-Bridge
+TP
+Test Point
+
+0
+1
+1
+L0003-Wheatstone-Bridge
+TRIM_3310Y-001-102L
+1 kOhm Potentiometer
+
+0
+3
+3
+L0003-Wheatstone-Bridge
+logo2
+
+
+0
+0
+0
