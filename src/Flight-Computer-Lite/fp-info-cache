@@ -1,4 +1,4 @@
-139733443808549
+143089397090658
 Flight-Computer
 142-0701-851
 
@@ -308,12 +308,26 @@ TS391IYLT
 5
 5
 Flight-Computer-Lite
+2N7002W-7-F
+
+2N7002W-7-F 
+0
+3
+3
+Flight-Computer-Lite
 3220-20-0200-00
 .050" (1,27mm) Shrouded Header for FFSD Series without Strain Relief.
 
 0
 20
 20
+Flight-Computer-Lite
+53047-0610
+<b>HEADER</b>
+
+0
+6
+6
 Flight-Computer-Lite
 1546551-2
 
@@ -413,13 +427,6 @@ PTS647SM38SMTR2LFS
 4
 4
 Flight-Computer-Lite
-QFPN_4A1KEU6_STM
-
-STM32G4A1KEU6 
-0
-33
-33
-Flight-Computer-Lite
 QS5U17TR
 
 
@@ -461,6 +468,13 @@ SST25VF040B-50-4I-S2AE-T
 0
 8
 8
+Flight-Computer-Lite
+STM32G4A1KEU6
+
+STM32G4A1KEU6 
+0
+33
+33
 Flight-Computer-Lite
 STM32H750VBT6
 
