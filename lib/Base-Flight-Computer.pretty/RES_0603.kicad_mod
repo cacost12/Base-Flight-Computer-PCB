@@ -32,7 +32,7 @@
     (stroke (width 0.127) (type solid)) (layer "F.Fab") (tstamp 04c65673-aa2d-4e39-ae47-f3217a76c661))
   (pad "1" smd rect (at -0.79 0) (size 0.94 1.02) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 5d011ffa-3b8c-41bd-97c4-c149ffa0a186))
   (pad "2" smd rect (at 0.79 0) (size 0.94 1.02) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 25dd9dac-136e-488c-a310-03c6d56d8d4e))
-  (model "/home/olsport/Documents/SDR/PCB/Flight-Computer-Lite/CAD/3Dfiles/RES_0603.step"
+  (model "/home/olsport/Documents/Rockets/PCB/Base-Flight-Computer-PCB/CAD/3Dfiles/RES_0603.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
