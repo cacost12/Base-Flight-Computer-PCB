@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "Flight-Computer")(type "KiCad")(uri "/home/olsport/Documents/SDR/PCB/Flight-Computer/lib/Flight-Computer.kicad_sym")(options "")(descr ""))
   (lib (name "Flight-Computer-Lite")(type "KiCad")(uri "/home/olsport/Documents/SDR/PCB/Flight-Computer-Lite/lib/Flight-Computer-Lite.kicad_sym")(options "")(descr ""))
+  (lib (name "Base-Flight-Computer")(type "KiCad")(uri "${KIPRJMOD}/Base-Flight-Computer.kicad_sym")(options "")(descr ""))
 )
