@@ -6268,7 +6268,7 @@
     (property "Reference" "R4" (at 138.9126 78.4133 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "68" (at 138.9126 80.9502 90)
+    (property "Value" "82" (at 138.9126 80.9502 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Flight-Computer-Lite:RES_0603" (at 149.86 77.978 0)
