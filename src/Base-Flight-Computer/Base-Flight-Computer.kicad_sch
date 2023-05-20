@@ -13,6 +13,269 @@
   )
 
   (lib_symbols
+    (symbol "Base-Flight-Computer:284391-6" (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "P" (at 8.89 6.35 0)
+        (effects (font (size 1.524 1.524)))
+      )
+      (property "Value" "1984659" (at 5.08 -27.94 0)
+        (effects (font (size 1.524 1.524)) hide)
+      )
+      (property "Footprint" "Base-Flight-Computer:1984659" (at 3.81 -30.48 0)
+        (effects (font (size 1.524 1.524)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.524 1.524)) hide)
+      )
+      (property "ki_fp_filters" "66953-005LF_AMP" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "284391-6_0_1"
+        (rectangle (start 5.08 2.54) (end 12.7 -4.826)
+          (stroke (width 0.1524) (type default))
+          (fill (type background))
+        )
+      )
+      (symbol "284391-6_1_1"
+        (polyline
+          (pts
+            (xy 10.16 -2.54)
+            (xy 5.08 -2.54)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 10.16 -2.54)
+            (xy 8.89 -3.3782)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 10.16 -2.54)
+            (xy 8.89 -1.7018)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 10.16 0)
+            (xy 5.08 0)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 10.16 0)
+            (xy 8.89 -0.8382)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 10.16 0)
+            (xy 8.89 0.8382)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (pin passive line (at 0 0 0) (length 5.08)
+          (name "5" (effects (font (size 1.4986 1.4986))))
+          (number "1" (effects (font (size 1.4986 1.4986))))
+        )
+        (pin passive line (at 0 -2.54 0) (length 5.08)
+          (name "6" (effects (font (size 1.4986 1.4986))))
+          (number "2" (effects (font (size 1.4986 1.4986))))
+        )
+      )
+      (symbol "284391-6_2_1"
+        (polyline
+          (pts
+            (xy 5.08 2.54)
+            (xy 5.08 -4.826)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 10.16 -2.54)
+            (xy 5.08 -2.54)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 10.16 -2.54)
+            (xy 8.89 -3.3782)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 10.16 -2.54)
+            (xy 8.89 -1.7018)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 10.16 0)
+            (xy 5.08 0)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 10.16 0)
+            (xy 8.89 -0.8382)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 10.16 0)
+            (xy 8.89 0.8382)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 12.7 -4.826)
+            (xy 12.7 2.54)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 12.7 2.54)
+            (xy 5.08 2.54)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 5.08 -4.826)
+            (xy 8.382 -4.826)
+            (xy 12.7 -4.826)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (pin passive line (at 0 0 0) (length 5.08)
+          (name "5" (effects (font (size 1.4986 1.4986))))
+          (number "3" (effects (font (size 1.4986 1.4986))))
+        )
+        (pin passive line (at 0 -2.54 0) (length 5.08)
+          (name "6" (effects (font (size 1.4986 1.4986))))
+          (number "4" (effects (font (size 1.4986 1.4986))))
+        )
+      )
+      (symbol "284391-6_3_1"
+        (polyline
+          (pts
+            (xy 5.08 2.54)
+            (xy 5.08 -4.826)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 10.16 -2.54)
+            (xy 5.08 -2.54)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 10.16 -2.54)
+            (xy 8.89 -3.3782)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 10.16 -2.54)
+            (xy 8.89 -1.7018)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 10.16 0)
+            (xy 5.08 0)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 10.16 0)
+            (xy 8.89 -0.8382)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 10.16 0)
+            (xy 8.89 0.8382)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 12.7 -4.826)
+            (xy 12.7 2.54)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 12.7 2.54)
+            (xy 5.08 2.54)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 5.08 -4.826)
+            (xy 8.382 -4.826)
+            (xy 12.7 -4.826)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (pin passive line (at 0 0 0) (length 5.08)
+          (name "5" (effects (font (size 1.4986 1.4986))))
+          (number "5" (effects (font (size 1.4986 1.4986))))
+        )
+        (pin passive line (at 0 -2.54 0) (length 5.08)
+          (name "6" (effects (font (size 1.4986 1.4986))))
+          (number "6" (effects (font (size 1.4986 1.4986))))
+        )
+      )
+    )
     (symbol "Flight-Computer-Lite:0530470610" (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
       (property "Reference" "P" (at 8.89 6.35 0)
         (effects (font (size 1.524 1.524)))
@@ -714,269 +977,6 @@
         (pin passive line (at 0 -2.54 0) (length 5.08)
           (name "6" (effects (font (size 1.4986 1.4986))))
           (number "2" (effects (font (size 1.4986 1.4986))))
-        )
-      )
-    )
-    (symbol "Flight-Computer:1984659" (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "P" (at 8.89 6.35 0)
-        (effects (font (size 1.524 1.524)))
-      )
-      (property "Value" "1984659" (at 5.08 -27.94 0)
-        (effects (font (size 1.524 1.524)) hide)
-      )
-      (property "Footprint" "Flight-Computer:1984659" (at 3.81 -30.48 0)
-        (effects (font (size 1.524 1.524)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.524 1.524)) hide)
-      )
-      (property "ki_fp_filters" "66953-005LF_AMP" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "1984659_0_1"
-        (rectangle (start 5.08 2.54) (end 12.7 -4.826)
-          (stroke (width 0.1524) (type default))
-          (fill (type background))
-        )
-      )
-      (symbol "1984659_1_1"
-        (polyline
-          (pts
-            (xy 10.16 -2.54)
-            (xy 5.08 -2.54)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 10.16 -2.54)
-            (xy 8.89 -3.3782)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 10.16 -2.54)
-            (xy 8.89 -1.7018)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 10.16 0)
-            (xy 5.08 0)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 10.16 0)
-            (xy 8.89 -0.8382)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 10.16 0)
-            (xy 8.89 0.8382)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (pin passive line (at 0 0 0) (length 5.08)
-          (name "5" (effects (font (size 1.4986 1.4986))))
-          (number "1" (effects (font (size 1.4986 1.4986))))
-        )
-        (pin passive line (at 0 -2.54 0) (length 5.08)
-          (name "6" (effects (font (size 1.4986 1.4986))))
-          (number "2" (effects (font (size 1.4986 1.4986))))
-        )
-      )
-      (symbol "1984659_2_1"
-        (polyline
-          (pts
-            (xy 5.08 2.54)
-            (xy 5.08 -4.826)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 10.16 -2.54)
-            (xy 5.08 -2.54)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 10.16 -2.54)
-            (xy 8.89 -3.3782)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 10.16 -2.54)
-            (xy 8.89 -1.7018)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 10.16 0)
-            (xy 5.08 0)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 10.16 0)
-            (xy 8.89 -0.8382)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 10.16 0)
-            (xy 8.89 0.8382)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 12.7 -4.826)
-            (xy 12.7 2.54)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 12.7 2.54)
-            (xy 5.08 2.54)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 5.08 -4.826)
-            (xy 8.382 -4.826)
-            (xy 12.7 -4.826)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (pin passive line (at 0 0 0) (length 5.08)
-          (name "5" (effects (font (size 1.4986 1.4986))))
-          (number "3" (effects (font (size 1.4986 1.4986))))
-        )
-        (pin passive line (at 0 -2.54 0) (length 5.08)
-          (name "6" (effects (font (size 1.4986 1.4986))))
-          (number "4" (effects (font (size 1.4986 1.4986))))
-        )
-      )
-      (symbol "1984659_3_1"
-        (polyline
-          (pts
-            (xy 5.08 2.54)
-            (xy 5.08 -4.826)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 10.16 -2.54)
-            (xy 5.08 -2.54)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 10.16 -2.54)
-            (xy 8.89 -3.3782)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 10.16 -2.54)
-            (xy 8.89 -1.7018)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 10.16 0)
-            (xy 5.08 0)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 10.16 0)
-            (xy 8.89 -0.8382)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 10.16 0)
-            (xy 8.89 0.8382)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 12.7 -4.826)
-            (xy 12.7 2.54)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 12.7 2.54)
-            (xy 5.08 2.54)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 5.08 -4.826)
-            (xy 8.382 -4.826)
-            (xy 12.7 -4.826)
-          )
-          (stroke (width 0.127) (type default))
-          (fill (type none))
-        )
-        (pin passive line (at 0 0 0) (length 5.08)
-          (name "5" (effects (font (size 1.4986 1.4986))))
-          (number "5" (effects (font (size 1.4986 1.4986))))
-        )
-        (pin passive line (at 0 -2.54 0) (length 5.08)
-          (name "6" (effects (font (size 1.4986 1.4986))))
-          (number "6" (effects (font (size 1.4986 1.4986))))
         )
       )
     )
@@ -2756,7 +2756,7 @@
     (stroke (width 0) (type default))
     (uuid 28b7f3da-7cae-4920-b61a-b402ab62226c)
   )
-  (wire (pts (xy 208.534 56.642) (xy 210.439 56.642))
+  (wire (pts (xy 207.772 56.642) (xy 210.439 56.642))
     (stroke (width 0) (type default))
     (uuid 28d56947-afca-498b-bab2-ef5237742993)
   )
@@ -2826,7 +2826,7 @@
     (uuid 3e93fa6c-52e9-4e51-b144-b4763c8c96c9)
   )
 
-  (wire (pts (xy 208.915 97.79) (xy 213.995 97.79))
+  (wire (pts (xy 208.534 97.79) (xy 213.995 97.79))
     (stroke (width 0) (type default))
     (uuid 3f614bac-b8e0-4bde-9411-134cf89e5352)
   )
@@ -2862,7 +2862,7 @@
     (stroke (width 0) (type default))
     (uuid 46ebf919-67ff-426f-9cef-1942b3a89949)
   )
-  (wire (pts (xy 208.915 100.33) (xy 210.82 100.33))
+  (wire (pts (xy 208.534 100.33) (xy 210.82 100.33))
     (stroke (width 0) (type default))
     (uuid 477b6420-42dd-403a-90fd-787b9e0daabe)
   )
@@ -2961,10 +2961,6 @@
   (wire (pts (xy 134.366 38.354) (xy 134.366 39.624))
     (stroke (width 0) (type default))
     (uuid 626accaf-04db-4e2d-baaf-132dd7381ac4)
-  )
-  (wire (pts (xy 208.534 54.102) (xy 213.614 54.102))
-    (stroke (width 0) (type default))
-    (uuid 6354e43b-0778-4ffe-85b2-168010fde74a)
   )
   (wire (pts (xy 133.985 121.92) (xy 133.985 123.698))
     (stroke (width 0) (type default))
@@ -3261,6 +3257,11 @@
   (polyline (pts (xy 282.575 124.206) (xy 282.575 164.465))
     (stroke (width 0) (type default))
     (uuid a56923d9-2075-4a10-839a-93e09a21657e)
+  )
+
+  (wire (pts (xy 207.772 54.102) (xy 213.614 54.102))
+    (stroke (width 0) (type default))
+    (uuid a632edd3-ec3d-49a9-b73b-643d8d278ffb)
   )
   (polyline (pts (xy 172.593 96.266) (xy 172.593 131.318))
     (stroke (width 0) (type default))
@@ -4130,6 +4131,36 @@
     )
   )
 
+  (symbol (lib_id "Base-Flight-Computer:284391-6") (at 207.772 54.102 0) (mirror y) (unit 2)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 00c2ca7a-c328-418c-8e8d-f88f0c92b7c0)
+    (property "Reference" "P1" (at 198.882 50.4839 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Value" "1984659" (at 202.692 82.042 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Footprint" "Base-Flight-Computer:1984659" (at 203.962 84.582 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Datasheet" "" (at 207.772 54.102 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (pin "1" (uuid 035f236b-0176-4376-aae2-dd1118b0bd35))
+    (pin "2" (uuid a5c3a63e-0cab-40a4-b9d3-746a8567db43))
+    (pin "3" (uuid 41c28d7b-4dfd-4880-b695-590829257eeb))
+    (pin "4" (uuid 6dbdce83-80e1-4ff2-b4db-dc7e22d363d1))
+    (pin "5" (uuid 0cd9aa1a-fed9-48d1-be46-8a498d98a0e6))
+    (pin "6" (uuid f7fd100a-af1d-40ec-a41e-59da99fa31f1))
+    (instances
+      (project "Base-Flight-Computer"
+        (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
+          (reference "P1") (unit 2)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Flight-Computer:RES_0603") (at 227.33 112.395 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0207b28c-f874-4527-b196-aa680cab8477)
@@ -4656,36 +4687,6 @@
     )
   )
 
-  (symbol (lib_id "Flight-Computer:1984659") (at 208.534 54.102 0) (mirror y) (unit 2)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 3f3b0173-211f-4060-916f-dff161aaed81)
-    (property "Reference" "P1" (at 199.644 50.3951 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Value" "1984659" (at 203.454 82.042 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Footprint" "Flight-Computer:1984659" (at 204.724 84.582 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Datasheet" "" (at 208.534 54.102 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (pin "1" (uuid e850485f-58e3-46ae-8316-8758b6ac5ad0))
-    (pin "2" (uuid d75aaf27-d0ed-427a-bae3-f36d2a46e2ad))
-    (pin "3" (uuid dd5b2e75-eab3-46ea-a1e7-5ebd8db9f73c))
-    (pin "4" (uuid 918912fe-3a60-4d95-bf17-b62eadd4ba55))
-    (pin "5" (uuid 03abf9c3-29d9-4fc3-b020-07d55fceab8a))
-    (pin "6" (uuid d2797ef4-44ee-4cd2-bfd5-4b09bf5a7c72))
-    (instances
-      (project "Base-Flight-Computer"
-        (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
-          (reference "P1") (unit 2)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Flight-Computer:Earth") (at 134.366 39.624 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 40a1d4c4-5d63-4040-9986-e2640ed9a857)
@@ -4706,36 +4707,6 @@
       (project "Base-Flight-Computer"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "#PWR02") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Flight-Computer:1984659") (at 208.915 97.79 0) (mirror y) (unit 3)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 418af176-1217-40c3-a140-16141b623a4f)
-    (property "Reference" "P1" (at 200.025 94.0831 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Value" "1984659" (at 203.835 125.73 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Footprint" "Flight-Computer:1984659" (at 205.105 128.27 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Datasheet" "" (at 208.915 97.79 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (pin "1" (uuid 8193ebe7-3406-424f-8a4d-5ddab9035848))
-    (pin "2" (uuid d567a9bc-28df-4148-9fd2-b7569e062707))
-    (pin "3" (uuid 2b74e45f-0e33-4529-bae5-6e27a6f0679b))
-    (pin "4" (uuid 5c62afb1-d3e5-45ed-a08a-c43655f03c9f))
-    (pin "5" (uuid 0eb3e58e-62dc-4d05-92d9-dbc5cd2ec106))
-    (pin "6" (uuid 839cc53a-04b9-413b-800f-5205776b5b45))
-    (instances
-      (project "Base-Flight-Computer"
-        (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
-          (reference "P1") (unit 3)
         )
       )
     )
@@ -5097,6 +5068,36 @@
       (project "Base-Flight-Computer"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "#PWR021") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Base-Flight-Computer:284391-6") (at 208.534 97.79 0) (mirror y) (unit 3)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 6f02a998-78d3-4599-84c7-e1e591129228)
+    (property "Reference" "P1" (at 199.644 94.1719 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Value" "1984659" (at 203.454 125.73 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Footprint" "Base-Flight-Computer:1984659" (at 204.724 128.27 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Datasheet" "" (at 208.534 97.79 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (pin "1" (uuid 0b340ca6-80eb-4666-9865-2036e5536ac1))
+    (pin "2" (uuid f14b4aa4-d486-4f9e-a272-287645d90828))
+    (pin "3" (uuid 1d338427-1763-4b91-ab99-6fb1f68e158f))
+    (pin "4" (uuid 8016795b-3b7c-47d8-a228-f83c2fa8caea))
+    (pin "5" (uuid 9bb08023-1ae8-415a-b641-64446ab335cc))
+    (pin "6" (uuid 646c59c9-283a-4675-8a71-b4151931275a))
+    (instances
+      (project "Base-Flight-Computer"
+        (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
+          (reference "P1") (unit 3)
         )
       )
     )
