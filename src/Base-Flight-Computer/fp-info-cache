@@ -1,4 +1,4 @@
-45481745296092
+47166424758559
 Base-Flight-Computer
 2N7002W-7-F
 
@@ -62,6 +62,13 @@ BMP390
 0
 10
 10
+Base-Flight-Computer
+CAP_0402
+
+
+0
+2
+2
 Base-Flight-Computer
 CAP_0603
 <b>CAPACITOR</b>
