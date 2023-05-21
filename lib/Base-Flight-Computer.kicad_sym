@@ -1987,6 +1987,12 @@
         (fill (type none))
       )
     )
+    (symbol "Mounting-Hole-4-40_1_1"
+      (pin input line (at 7.112 0 180) (length 2.54)
+        (name "" (effects (font (size 1.016 1.016))))
+        (number "1" (effects (font (size 1.016 1.016))))
+      )
+    )
   )
   (symbol "QS5U17TR" (pin_names hide) (in_bom yes) (on_board yes)
     (property "Reference" "Q" (at 5.08 1.905 0)
