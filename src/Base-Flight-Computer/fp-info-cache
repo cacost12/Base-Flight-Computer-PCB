@@ -1,4 +1,4 @@
-143474170124841
+141789654391598
 Base-Flight-Computer
 2N7002W-7-F
 
@@ -48,6 +48,13 @@ Base-Flight-Computer
 0
 11
 7
+Base-Flight-Computer
+AP7370-33Y-13
+
+
+0
+3
+3
 Base-Flight-Computer
 AT-1438-TWT-R
 
@@ -112,26 +119,12 @@ Jumper-NO
 2
 2
 Base-Flight-Computer
-LMS8117AMP-3.3NOPB
-
-
-0
-4
-3
-Base-Flight-Computer
 MountingHole_4-40
 Mounting Hole 3mm
 mounting hole 3mm
 0
 1
 1
-Base-Flight-Computer
-NCP176AMX330TCG
-
-
-0
-7
-7
 Base-Flight-Computer
 QS5U17TR
 
