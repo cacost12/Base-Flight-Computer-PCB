@@ -1,4 +1,4 @@
-141790159372516
+141790330950640
 Base-Flight-Computer
 2N7002W-7-F
 
@@ -133,6 +133,13 @@ mounting hole 3mm
 1
 1
 Base-Flight-Computer
+PMEG3010AESBYL
+
+
+0
+2
+2
+Base-Flight-Computer
 QS5U17TR
 
 
@@ -149,13 +156,6 @@ RES_0402
 Base-Flight-Computer
 RES_0603
 <b>RESISTOR</b>
-
-0
-2
-2
-Base-Flight-Computer
-SM5819PL-TP
-
 
 0
 2
