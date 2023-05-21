@@ -275,7 +275,7 @@
     (property "Reference" "P" (at 7.112 4.064 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Value" "1984659" (at 5.08 -27.94 0)
+    (property "Value" "1546551-4" (at 5.08 -27.94 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Footprint" "Base-Flight-Computer:1546551-4" (at 3.81 -30.48 0)
@@ -615,269 +615,6 @@
       )
     )
     (symbol "1984659_3_1"
-      (polyline
-        (pts
-          (xy 5.08 2.54)
-          (xy 5.08 -4.826)
-        )
-        (stroke (width 0.127) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 10.16 -2.54)
-          (xy 5.08 -2.54)
-        )
-        (stroke (width 0.127) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 10.16 -2.54)
-          (xy 8.89 -3.3782)
-        )
-        (stroke (width 0.127) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 10.16 -2.54)
-          (xy 8.89 -1.7018)
-        )
-        (stroke (width 0.127) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 10.16 0)
-          (xy 5.08 0)
-        )
-        (stroke (width 0.127) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 10.16 0)
-          (xy 8.89 -0.8382)
-        )
-        (stroke (width 0.127) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 10.16 0)
-          (xy 8.89 0.8382)
-        )
-        (stroke (width 0.127) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 12.7 -4.826)
-          (xy 12.7 2.54)
-        )
-        (stroke (width 0.127) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 12.7 2.54)
-          (xy 5.08 2.54)
-        )
-        (stroke (width 0.127) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 5.08 -4.826)
-          (xy 8.382 -4.826)
-          (xy 12.7 -4.826)
-        )
-        (stroke (width 0.127) (type default))
-        (fill (type none))
-      )
-      (pin passive line (at 0 0 0) (length 5.08)
-        (name "5" (effects (font (size 1.4986 1.4986))))
-        (number "5" (effects (font (size 1.4986 1.4986))))
-      )
-      (pin passive line (at 0 -2.54 0) (length 5.08)
-        (name "6" (effects (font (size 1.4986 1.4986))))
-        (number "6" (effects (font (size 1.4986 1.4986))))
-      )
-    )
-  )
-  (symbol "284391-4" (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "P" (at 8.89 6.35 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Value" "1984659" (at 5.08 -27.94 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Footprint" "Base-Flight-Computer:1984659" (at 3.81 -30.48 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Datasheet" "" (at 0 0 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "ki_fp_filters" "66953-005LF_AMP" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "284391-4_0_1"
-      (rectangle (start 5.08 2.54) (end 12.7 -4.826)
-        (stroke (width 0.1524) (type default))
-        (fill (type background))
-      )
-    )
-    (symbol "284391-4_1_1"
-      (polyline
-        (pts
-          (xy 10.16 -2.54)
-          (xy 5.08 -2.54)
-        )
-        (stroke (width 0.127) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 10.16 -2.54)
-          (xy 8.89 -3.3782)
-        )
-        (stroke (width 0.127) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 10.16 -2.54)
-          (xy 8.89 -1.7018)
-        )
-        (stroke (width 0.127) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 10.16 0)
-          (xy 5.08 0)
-        )
-        (stroke (width 0.127) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 10.16 0)
-          (xy 8.89 -0.8382)
-        )
-        (stroke (width 0.127) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 10.16 0)
-          (xy 8.89 0.8382)
-        )
-        (stroke (width 0.127) (type default))
-        (fill (type none))
-      )
-      (pin passive line (at 0 0 0) (length 5.08)
-        (name "5" (effects (font (size 1.4986 1.4986))))
-        (number "1" (effects (font (size 1.4986 1.4986))))
-      )
-      (pin passive line (at 0 -2.54 0) (length 5.08)
-        (name "6" (effects (font (size 1.4986 1.4986))))
-        (number "2" (effects (font (size 1.4986 1.4986))))
-      )
-    )
-    (symbol "284391-4_2_1"
-      (polyline
-        (pts
-          (xy 5.08 2.54)
-          (xy 5.08 -4.826)
-        )
-        (stroke (width 0.127) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 10.16 -2.54)
-          (xy 5.08 -2.54)
-        )
-        (stroke (width 0.127) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 10.16 -2.54)
-          (xy 8.89 -3.3782)
-        )
-        (stroke (width 0.127) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 10.16 -2.54)
-          (xy 8.89 -1.7018)
-        )
-        (stroke (width 0.127) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 10.16 0)
-          (xy 5.08 0)
-        )
-        (stroke (width 0.127) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 10.16 0)
-          (xy 8.89 -0.8382)
-        )
-        (stroke (width 0.127) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 10.16 0)
-          (xy 8.89 0.8382)
-        )
-        (stroke (width 0.127) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 12.7 -4.826)
-          (xy 12.7 2.54)
-        )
-        (stroke (width 0.127) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 12.7 2.54)
-          (xy 5.08 2.54)
-        )
-        (stroke (width 0.127) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 5.08 -4.826)
-          (xy 8.382 -4.826)
-          (xy 12.7 -4.826)
-        )
-        (stroke (width 0.127) (type default))
-        (fill (type none))
-      )
-      (pin passive line (at 0 0 0) (length 5.08)
-        (name "5" (effects (font (size 1.4986 1.4986))))
-        (number "3" (effects (font (size 1.4986 1.4986))))
-      )
-      (pin passive line (at 0 -2.54 0) (length 5.08)
-        (name "6" (effects (font (size 1.4986 1.4986))))
-        (number "4" (effects (font (size 1.4986 1.4986))))
-      )
-    )
-    (symbol "284391-4_3_1"
       (polyline
         (pts
           (xy 5.08 2.54)
@@ -1541,7 +1278,7 @@
     (property "Reference" "C" (at -1.27 3.81 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Value" "CAP_0402" (at -3.81 -3.81 0)
+    (property "Value" "CAP_0402" (at -4.826 -3.81 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Footprint" "Base-Flight-Computer:CAP_0402" (at -2.54 -10.16 0)
@@ -2399,6 +2136,185 @@
       )
     )
   )
+  (symbol "LTST-C191KGKT" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
+    (property "Reference" "D" (at 3.81 5.08 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Value" "LTST-C191KGKT" (at 11.43 -10.16 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Footprint" "Base-Flight-Computer:LTST-C191KGKT" (at 5.08 -9.144 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Datasheet" "" (at 0 6.35 90)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "ki_fp_filters" "LED_LTST-C150GKT_LTO LED_LTST-C150GKT_LTO-M LED_LTST-C150GKT_LTO-L" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "LTST-C191KGKT_1_1"
+      (polyline
+        (pts
+          (xy -1.905 0)
+          (xy 1.905 0)
+        )
+        (stroke (width 0.2032) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.905 2.54)
+          (xy 0 0)
+        )
+        (stroke (width 0.2032) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0)
+          (xy 0 -1.27)
+        )
+        (stroke (width 0.1524) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0)
+          (xy 1.905 2.54)
+        )
+        (stroke (width 0.2032) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 3.175)
+          (xy 0 2.54)
+        )
+        (stroke (width 0.1524) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 3.81)
+          (xy 0 2.8702)
+        )
+        (stroke (width 0.1524) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.905 2.54)
+          (xy -1.905 2.54)
+        )
+        (stroke (width 0.2032) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.54 -0.635)
+          (xy 3.81 -1.905)
+        )
+        (stroke (width 0.2032) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 3.175 -2.54)
+          (xy 4.445 -3.81)
+        )
+        (stroke (width 0.2032) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 3.175 1.27)
+          (xy 4.445 0)
+        )
+        (stroke (width 0.2032) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 3.81 -3.81)
+          (xy 4.445 -3.81)
+        )
+        (stroke (width 0.2032) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 3.81 -1.905)
+          (xy 3.175 -2.54)
+        )
+        (stroke (width 0.2032) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 3.81 -0.635)
+          (xy 5.08 -1.905)
+        )
+        (stroke (width 0.2032) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 4.445 -3.81)
+          (xy 4.445 -3.175)
+        )
+        (stroke (width 0.2032) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 4.445 -3.175)
+          (xy 3.81 -3.81)
+        )
+        (stroke (width 0.2032) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 4.445 -1.905)
+          (xy 5.08 -1.905)
+        )
+        (stroke (width 0.2032) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 4.445 0)
+          (xy 3.81 -0.635)
+        )
+        (stroke (width 0.2032) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 5.08 -1.905)
+          (xy 5.08 -1.27)
+        )
+        (stroke (width 0.2032) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 5.08 -1.27)
+          (xy 4.445 -1.905)
+        )
+        (stroke (width 0.2032) (type default))
+        (fill (type none))
+      )
+      (pin passive line (at 0 -2.54 90) (length 1.27)
+        (name "1" (effects (font (size 1.4986 1.4986))))
+        (number "1" (effects (font (size 1.4986 1.4986))))
+      )
+      (pin passive line (at 0 5.08 270) (length 1.27)
+        (name "2" (effects (font (size 1.4986 1.4986))))
+        (number "2" (effects (font (size 1.4986 1.4986))))
+      )
+    )
+  )
   (symbol "Mounting-Hole-4-40" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "H" (at 0 6.35 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2945,185 +2861,6 @@
       )
       (pin passive line (at -3.81 0 0) (length 2.54)
         (name "~" (effects (font (size 1.4986 1.4986))))
-        (number "2" (effects (font (size 1.4986 1.4986))))
-      )
-    )
-  )
-  (symbol "SML-LX1206GC-TR" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
-    (property "Reference" "D" (at 3.81 5.08 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Value" "SML-LX1206GC-TR" (at 11.43 -10.16 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Footprint" "Base-Flight-Computer:SML-LX1206GC-TR" (at 5.08 -9.144 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Datasheet" "" (at 0 6.35 90)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "ki_fp_filters" "LED_LTST-C150GKT_LTO LED_LTST-C150GKT_LTO-M LED_LTST-C150GKT_LTO-L" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "SML-LX1206GC-TR_1_1"
-      (polyline
-        (pts
-          (xy -1.905 0)
-          (xy 1.905 0)
-        )
-        (stroke (width 0.2032) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.905 2.54)
-          (xy 0 0)
-        )
-        (stroke (width 0.2032) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 0)
-          (xy 0 -1.27)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 0)
-          (xy 1.905 2.54)
-        )
-        (stroke (width 0.2032) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 3.175)
-          (xy 0 2.54)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 3.81)
-          (xy 0 2.8702)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.905 2.54)
-          (xy -1.905 2.54)
-        )
-        (stroke (width 0.2032) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 2.54 -0.635)
-          (xy 3.81 -1.905)
-        )
-        (stroke (width 0.2032) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 3.175 -2.54)
-          (xy 4.445 -3.81)
-        )
-        (stroke (width 0.2032) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 3.175 1.27)
-          (xy 4.445 0)
-        )
-        (stroke (width 0.2032) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 3.81 -3.81)
-          (xy 4.445 -3.81)
-        )
-        (stroke (width 0.2032) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 3.81 -1.905)
-          (xy 3.175 -2.54)
-        )
-        (stroke (width 0.2032) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 3.81 -0.635)
-          (xy 5.08 -1.905)
-        )
-        (stroke (width 0.2032) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 4.445 -3.81)
-          (xy 4.445 -3.175)
-        )
-        (stroke (width 0.2032) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 4.445 -3.175)
-          (xy 3.81 -3.81)
-        )
-        (stroke (width 0.2032) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 4.445 -1.905)
-          (xy 5.08 -1.905)
-        )
-        (stroke (width 0.2032) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 4.445 0)
-          (xy 3.81 -0.635)
-        )
-        (stroke (width 0.2032) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 5.08 -1.905)
-          (xy 5.08 -1.27)
-        )
-        (stroke (width 0.2032) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 5.08 -1.27)
-          (xy 4.445 -1.905)
-        )
-        (stroke (width 0.2032) (type default))
-        (fill (type none))
-      )
-      (pin passive line (at 0 -2.54 90) (length 1.27)
-        (name "1" (effects (font (size 1.4986 1.4986))))
-        (number "1" (effects (font (size 1.4986 1.4986))))
-      )
-      (pin passive line (at 0 5.08 270) (length 1.27)
-        (name "2" (effects (font (size 1.4986 1.4986))))
         (number "2" (effects (font (size 1.4986 1.4986))))
       )
     )

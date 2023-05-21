@@ -1,4 +1,4 @@
-140105329785535
+141790159372516
 Base-Flight-Computer
 2N7002W-7-F
 
@@ -27,6 +27,13 @@ Base-Flight-Computer
 0
 2
 2
+Base-Flight-Computer
+1546551-4
+
+1546551-4 
+0
+4
+4
 Base-Flight-Computer
 1984659
 
@@ -112,6 +119,13 @@ Jumper-NO
 2
 2
 Base-Flight-Computer
+LTST-C191KGKT
+
+
+0
+2
+2
+Base-Flight-Computer
 MountingHole_4-40
 Mounting Hole 3mm
 mounting hole 3mm
@@ -141,13 +155,6 @@ RES_0603
 2
 Base-Flight-Computer
 SM5819PL-TP
-
-
-0
-2
-2
-Base-Flight-Computer
-SML-LX1206GC-TR
 
 
 0
