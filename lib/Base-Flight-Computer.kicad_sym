@@ -1782,14 +1782,14 @@
       )
     )
   )
-  (symbol "ECS-240-18-33-JGN-TR" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+  (symbol "ECS-240-12-37B-CKY-TR" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
     (property "Reference" "Y" (at 0 3.81 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "ECS-240-18-33-JGN-TR" (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Base-Flight-Computer:ECS-240-18-33-JGN-TR" (at 0 0 0)
+    (property "Footprint" "Base-Flight-Computer:ECS-240-12-37B-CKY-TR" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 0 0 0)
@@ -1804,7 +1804,7 @@
     (property "ki_fp_filters" "Crystal*" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "ECS-240-18-33-JGN-TR_0_1"
+    (symbol "ECS-240-12-37B-CKY-TR_0_1"
       (rectangle (start -1.143 2.54) (end 1.143 -2.54)
         (stroke (width 0.3048) (type default))
         (fill (type none))
@@ -1842,7 +1842,7 @@
         (fill (type none))
       )
     )
-    (symbol "ECS-240-18-33-JGN-TR_1_1"
+    (symbol "ECS-240-12-37B-CKY-TR_1_1"
       (pin passive line (at -3.81 0 0) (length 1.27)
         (name "1" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
