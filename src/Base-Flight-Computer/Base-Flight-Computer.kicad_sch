@@ -5138,32 +5138,6 @@
     )
   )
 
-  (symbol (lib_id "Base-Flight-Computer:S2B-PH-K-S__LF__SN") (at 34.925 135.89 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 38b2010d-b945-4d6e-890e-e3117dfb81cc)
-    (property "Reference" "P5" (at 20.193 137.033 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Value" "1984659" (at 29.845 163.83 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Footprint" "Base-Flight-Computer:1984659" (at 31.115 166.37 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Datasheet" "" (at 34.925 135.89 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (pin "1" (uuid a7b93bd2-5ed2-415d-9bcc-06abd756a030))
-    (pin "2" (uuid 1eda144e-c456-49a1-96b7-8cbdbdc13165))
-    (instances
-      (project "Base-Flight-Computer"
-        (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
-          (reference "P5") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Flight-Computer:Earth") (at 265.938 101.473 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3b6cabe6-d864-45de-8db4-cdb661da993f)
@@ -6742,6 +6716,32 @@
       (project "Base-Flight-Computer"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "#PWR028") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Base-Flight-Computer:S2B-PH-K-S__LF__SN") (at 34.925 135.89 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid d1a420fa-30c5-444e-99b2-5aa55ed97930)
+    (property "Reference" "P5" (at 20.32 136.906 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Value" "1984659" (at 29.845 163.83 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Footprint" "Base-Flight-Computer:JST_S2B-PH-K-S(LF)(SN)" (at 31.115 166.37 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Datasheet" "" (at 34.925 135.89 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (pin "1" (uuid 348cdac3-a05b-486c-ac08-d64e123bfdeb))
+    (pin "2" (uuid 97e45521-432d-4e28-b62c-bd1a57a0180a))
+    (instances
+      (project "Base-Flight-Computer"
+        (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
+          (reference "P5") (unit 1)
         )
       )
     )

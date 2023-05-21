@@ -2,7 +2,7 @@
   (layer "F.Cu")
   (attr through_hole)
   (fp_text reference "REF**" (at -1.776 -2.6398) (layer "F.SilkS")
-      (effects (font (size 0.48 0.48) (thickness 0.15)))
+      (effects (font (size 0.508 0.508) (thickness 0.0762)))
     (tstamp 982e5e20-e995-440b-a801-45bc099980cc)
   )
   (fp_text value "JST_S2B-PH-K-S_LF__SN_" (at 3.4056 6.8952) (layer "F.Fab")
