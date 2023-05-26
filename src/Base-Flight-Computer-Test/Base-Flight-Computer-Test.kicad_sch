@@ -2815,6 +2815,10 @@
     (stroke (width 0) (type default))
     (uuid 314ea995-a518-4c86-beef-f5ff88ddbca5)
   )
+  (wire (pts (xy 31.496 45.593) (xy 33.02 45.593))
+    (stroke (width 0) (type default))
+    (uuid 3259be10-b2be-484a-9b36-bd85e544fe10)
+  )
   (wire (pts (xy 80.518 179.324) (xy 83.82 179.324))
     (stroke (width 0) (type default))
     (uuid 32e8d3bf-9d92-4777-81a2-d7da19411cf5)
@@ -3087,6 +3091,10 @@
     (stroke (width 0) (type default))
     (uuid 78388dd0-199a-427e-881a-0bd89e1b785e)
   )
+  (wire (pts (xy 31.496 40.513) (xy 33.02 40.513))
+    (stroke (width 0) (type default))
+    (uuid 785da5a7-3494-4700-a2b0-c8e0ebe26791)
+  )
   (wire (pts (xy 40.132 94.869) (xy 40.132 100.203))
     (stroke (width 0) (type default))
     (uuid 78dd38b7-a23d-4e01-8dbe-aeab1070810c)
@@ -3126,10 +3134,6 @@
   (wire (pts (xy 75.438 103.378) (xy 77.216 103.378))
     (stroke (width 0) (type default))
     (uuid 7fa3764c-c543-4c8b-8ec4-aecb6dee0b07)
-  )
-  (wire (pts (xy 86.868 40.513) (xy 87.63 40.513))
-    (stroke (width 0) (type default))
-    (uuid 83df071d-0f68-4154-a904-e9d1088913bc)
   )
   (wire (pts (xy 263.398 81.153) (xy 266.954 81.153))
     (stroke (width 0) (type default))
@@ -3395,10 +3399,6 @@
     (stroke (width 0) (type default))
     (uuid cf1bed66-f065-40df-a017-59cca8871d23)
   )
-  (wire (pts (xy 31.496 45.593) (xy 33.02 45.593))
-    (stroke (width 0) (type default))
-    (uuid cf2b0fe7-bd36-4317-964c-69e13b4cac58)
-  )
   (wire (pts (xy 216.789 153.797) (xy 216.789 154.813))
     (stroke (width 0) (type default))
     (uuid d006ae85-42b7-43cb-b99f-e92ab6826465)
@@ -3410,10 +3410,6 @@
   (wire (pts (xy 46.228 129.794) (xy 46.228 136.017))
     (stroke (width 0) (type default))
     (uuid d02b5134-44d4-4ecb-9c52-f7010c07624d)
-  )
-  (wire (pts (xy 31.496 40.513) (xy 33.02 40.513))
-    (stroke (width 0) (type default))
-    (uuid d0aa504d-4350-4687-b770-8a3fa6dd1b2b)
   )
   (wire (pts (xy 90.932 87.503) (xy 90.932 89.281))
     (stroke (width 0) (type default))
@@ -3578,6 +3574,10 @@
   (wire (pts (xy 46.228 129.794) (xy 53.975 129.794))
     (stroke (width 0) (type default))
     (uuid fb926b00-e14f-4ca1-af35-2a3845363a28)
+  )
+  (wire (pts (xy 86.868 40.513) (xy 87.757 40.513))
+    (stroke (width 0) (type default))
+    (uuid fb9f3afa-36d0-4e26-a7d5-0dd7c0121b71)
   )
   (wire (pts (xy 253.873 52.705) (xy 253.873 52.197))
     (stroke (width 0) (type default))
@@ -4074,11 +4074,11 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "BEEP" (shape input) (at 31.496 40.513 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
+  (global_label "BEEP" (shape input) (at 87.757 40.513 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
     (uuid 9348a4f7-2b37-4621-a41a-130a447ef394)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 24.2448 40.4336 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 95.0082 40.4336 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
   (global_label "OSC_OUT" (shape input) (at 31.496 30.353 180) (fields_autoplaced)
@@ -4221,11 +4221,11 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "DROGUE" (shape input) (at 87.63 40.513 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
+  (global_label "DROGUE" (shape input) (at 31.496 45.593 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
     (uuid d84aa7e6-9768-4b6d-9bfd-62ec5fe1424b)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 97.6631 40.4336 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 21.4629 45.5136 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
   (global_label "NRST" (shape input) (at 31.496 32.893 180) (fields_autoplaced)
@@ -4249,10 +4249,10 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "STATUS_B" (shape input) (at 31.496 45.593 180) (fields_autoplaced)
+  (global_label "STATUS_B" (shape input) (at 31.496 40.513 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid e21d39a0-7d81-4337-bd6a-d11ea2218894)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 20.0719 45.5136 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 20.0719 40.4336 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -4338,7 +4338,7 @@
     (pin "1" (uuid a58bab50-835a-4e46-b58a-3a95971bcff6))
     (pin "2" (uuid 323984e8-783d-4a9f-b647-0e888352a7ed))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "R3") (unit 1)
         )
@@ -4363,7 +4363,7 @@
     )
     (pin "1" (uuid b713e320-ef47-4097-b9b4-a3e51cc87778))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "#PWR011") (unit 1)
         )
@@ -4388,7 +4388,7 @@
     )
     (pin "1" (uuid 5275a914-b629-48cd-adbb-cb146dff85d7))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "#PWR030") (unit 1)
         )
@@ -4413,7 +4413,7 @@
     )
     (pin "1" (uuid 9a0b9354-f8d1-4532-a010-4d593c257f03))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "H3") (unit 1)
         )
@@ -4439,7 +4439,7 @@
     (pin "1" (uuid 5cfbb80b-effd-430c-96b2-82ad29ce7de2))
     (pin "2" (uuid ebfd57c6-9606-48d2-b0e1-fa65d643b499))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "R13") (unit 1)
         )
@@ -4464,7 +4464,7 @@
     )
     (pin "1" (uuid 9849d313-269d-4175-b05f-bf5651daefb0))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "#PWR023") (unit 1)
         )
@@ -4490,7 +4490,7 @@
     (pin "1" (uuid 04009840-94fd-434e-8baa-773eab0568b1))
     (pin "2" (uuid d4f13a2a-8d85-4325-b598-206cfbcf358e))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "C2") (unit 1)
         )
@@ -4517,7 +4517,7 @@
     (pin "2" (uuid e6456e96-2f9d-4eba-8d15-22bb2079a22a))
     (pin "3" (uuid ed06cfe6-cc89-449d-8285-2580abebde4a))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "Q2") (unit 1)
         )
@@ -4545,7 +4545,7 @@
     (pin "3" (uuid 682525c1-9bde-4ebc-a33f-db602a11c2fc))
     (pin "4" (uuid fe202787-0c8f-4809-b624-6653dd44ff71))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "P4") (unit 1)
         )
@@ -4572,7 +4572,7 @@
     (pin "2" (uuid 749d2737-f4b3-4e59-9f08-38bfa3225138))
     (pin "3" (uuid 97c9db12-45d4-4942-9acc-0f32e3702ea0))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "Q5") (unit 1)
         )
@@ -4597,7 +4597,7 @@
     )
     (pin "1" (uuid 8940c7a8-4fb5-414d-b75e-969bc59f6cdc))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "#PWR014") (unit 1)
         )
@@ -4623,7 +4623,7 @@
     (pin "1" (uuid 1faef4ce-4564-46d9-8f1d-c490c6ce3fc7))
     (pin "2" (uuid 571fdf5f-2ee1-4607-aa96-e1b3774be2ed))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "C12") (unit 1)
         )
@@ -4648,7 +4648,7 @@
     )
     (pin "1" (uuid 1321d3b1-2cb4-40c5-9c33-927328bc119f))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "#PWR06") (unit 1)
         )
@@ -4674,7 +4674,7 @@
     (pin "A" (uuid ccfd6041-bd48-4d17-88e7-3b05aaf9a054))
     (pin "C" (uuid f977802e-77f3-419b-8ba7-1f6476f12ae1))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "D2") (unit 1)
         )
@@ -4699,7 +4699,7 @@
     )
     (pin "1" (uuid 95d4300a-f769-4518-9505-342ba90741c0))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "#PWR024") (unit 1)
         )
@@ -4733,7 +4733,7 @@
     (pin "8" (uuid 14520e7e-c4b9-45dc-bd88-dcb98dc38f0c))
     (pin "9" (uuid d3205870-9a02-422e-896e-80963285dc8e))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "U2") (unit 1)
         )
@@ -4759,7 +4759,7 @@
     (pin "A" (uuid 5330ed66-e3ff-4b14-949f-cb9ad0c19b2d))
     (pin "C" (uuid b8f52a86-7d27-474d-b78f-040d40fb285c))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "D5") (unit 1)
         )
@@ -4784,7 +4784,7 @@
     )
     (pin "1" (uuid 033b0af7-cbb6-4df3-8322-5f029f474311))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "#PWR029") (unit 1)
         )
@@ -4812,7 +4812,7 @@
     (pin "3" (uuid e9e26bcb-ee4b-4fea-a646-202f7eb7f83e))
     (pin "4" (uuid 44f914e6-4d08-40ec-8cfa-702c7889b7ef))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "P4") (unit 2)
         )
@@ -4838,7 +4838,7 @@
     (pin "1" (uuid 2739c0e0-4ef1-4cf5-8523-55415bd1627a))
     (pin "2" (uuid 66e5de34-2835-4e5c-bdce-c9a8997a90a1))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "C7") (unit 1)
         )
@@ -4895,7 +4895,7 @@
     (pin "8" (uuid 3e89fa16-5599-4eb1-9e1c-421814bb9aef))
     (pin "9" (uuid ea737ac6-db55-4557-a26f-a23c7189bef3))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "U1") (unit 1)
         )
@@ -4921,7 +4921,7 @@
     (pin "1" (uuid 2630e504-fb48-4e1c-9c0d-817f69c128ab))
     (pin "2" (uuid 3baf11c4-fc77-42a7-8837-137add4890f0))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "R5") (unit 1)
         )
@@ -4946,7 +4946,7 @@
     )
     (pin "1" (uuid 4cd30d57-b1e2-4b4a-81a1-aadd0a57cc7a))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "#PWR032") (unit 1)
         )
@@ -4972,7 +4972,7 @@
     (pin "A" (uuid eb8529af-5bf6-4329-948c-a1623d734907))
     (pin "C" (uuid 12c6218a-2897-4e7b-b9d2-493f4f88ba96))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "D4") (unit 1)
         )
@@ -4997,7 +4997,7 @@
     )
     (pin "1" (uuid 53526562-4659-4bfc-919c-d598186080b1))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "#PWR02") (unit 1)
         )
@@ -5023,7 +5023,7 @@
     (pin "1" (uuid 750cc3ec-4244-4899-b1a5-788c5cea74f4))
     (pin "2" (uuid f152b2d3-4bc0-4319-93c6-20ced2558a73))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "R21") (unit 1)
         )
@@ -5049,7 +5049,7 @@
     (pin "1" (uuid 68966f36-a463-4ff8-87a9-fec8905fd160))
     (pin "2" (uuid 52ec25ca-0f3c-4277-b912-b1da55001faa))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "R6") (unit 1)
         )
@@ -5075,7 +5075,7 @@
     (pin "1" (uuid b2c97de7-af69-47e5-bc6f-ba53f5d6735c))
     (pin "2" (uuid e16598fc-ed1c-4675-a53a-6139f0ff29a2))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "C9") (unit 1)
         )
@@ -5100,7 +5100,7 @@
     )
     (pin "1" (uuid 96c13939-6c06-4ae9-b657-775f3be4b49d))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "#PWR01") (unit 1)
         )
@@ -5125,7 +5125,7 @@
     )
     (pin "1" (uuid 83937333-73e3-4c99-9459-788c72dc1635))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "#PWR019") (unit 1)
         )
@@ -5151,7 +5151,7 @@
     (pin "1" (uuid 41e606dc-fec2-48f6-88f4-dbc9d4588487))
     (pin "2" (uuid 3e30d36d-17e2-4ffb-a178-08edf68fe84b))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "C3") (unit 1)
         )
@@ -5177,7 +5177,7 @@
     (pin "1" (uuid 84e54224-b607-4fbc-ae2a-a113ca5ae9a5))
     (pin "2" (uuid 732f64f0-c582-49bd-bac0-65b644b77b79))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "R19") (unit 1)
         )
@@ -5205,7 +5205,7 @@
     (pin "3" (uuid c89d49ba-dd7f-4a29-948f-481e6d701fe2))
     (pin "4" (uuid f00151c0-12bc-49f9-bef0-4bfb62fb9e23))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "P1") (unit 2)
         )
@@ -5231,7 +5231,7 @@
     (pin "1" (uuid b3ad5c7d-669f-43bc-ae38-432a9ce97e82))
     (pin "2" (uuid 58d407f5-c098-44cb-b2fb-73e81e2fac59))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "R11") (unit 1)
         )
@@ -5256,7 +5256,7 @@
     )
     (pin "1" (uuid 39ae48c9-e3ac-413d-b627-84752c27fe9f))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "#PWR010") (unit 1)
         )
@@ -5281,7 +5281,7 @@
     )
     (pin "1" (uuid 336ca937-4e9a-45a9-835b-28aeacfc10b4))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "#PWR031") (unit 1)
         )
@@ -5306,7 +5306,7 @@
     )
     (pin "1" (uuid a1a04c48-ba24-4455-a53a-27fb2c9511d4))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "#PWR027") (unit 1)
         )
@@ -5335,7 +5335,7 @@
     (pin "4" (uuid 71349a72-1317-4f31-8bd6-d91c7379a615))
     (pin "5" (uuid 1c8c210e-e817-4732-8c72-a6bf89ef33ec))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "Q4") (unit 1)
         )
@@ -5361,7 +5361,7 @@
     (pin "1" (uuid 1b8db4c2-0b5a-4b1b-972a-87e4f2230f00))
     (pin "2" (uuid 7701f4e2-3df9-4076-9764-1c09b85bdc86))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "C5") (unit 1)
         )
@@ -5387,7 +5387,7 @@
     (pin "1" (uuid 69dcd053-5c4e-4b4a-a848-c820a5a9a9d2))
     (pin "2" (uuid 73b2a601-5259-41cc-8e0d-6ec5d0a7f9d9))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "R16") (unit 1)
         )
@@ -5412,7 +5412,7 @@
     )
     (pin "1" (uuid b6401971-586f-4f52-b3ed-6e0143078fe2))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "#PWR04") (unit 1)
         )
@@ -5437,7 +5437,7 @@
     )
     (pin "1" (uuid 0ba6cf94-5711-42d9-8b0a-197b88afd1f2))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "#PWR016") (unit 1)
         )
@@ -5463,7 +5463,7 @@
     (pin "1" (uuid 43dbd4f3-03de-4221-9e82-f25d14b3a697))
     (pin "2" (uuid 7a070831-dc07-4d03-a0ba-16629b178811))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "J1") (unit 1)
         )
@@ -5488,7 +5488,7 @@
     )
     (pin "1" (uuid 138f60b6-16b2-40da-9434-14314b03ea88))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "#PWR020") (unit 1)
         )
@@ -5513,7 +5513,7 @@
     )
     (pin "1" (uuid 45634288-99cd-4229-b6b8-c26eb81974f3))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "#PWR033") (unit 1)
         )
@@ -5539,7 +5539,7 @@
     (pin "1" (uuid 620b871e-04e8-463f-8940-11ac31a58f90))
     (pin "2" (uuid 16ab114d-145b-483a-b3bd-132214812fef))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "C8") (unit 1)
         )
@@ -5564,7 +5564,7 @@
     )
     (pin "1" (uuid c7b3d92f-abe5-435c-b180-7dfe4deab650))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "#PWR021") (unit 1)
         )
@@ -5590,7 +5590,7 @@
     (pin "1" (uuid 29b5b555-201d-4efc-8092-1cbac4a1d708))
     (pin "2" (uuid 8c07abe6-57cf-4569-8d0a-48ea7babbc34))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "R7") (unit 1)
         )
@@ -5615,7 +5615,7 @@
     )
     (pin "1" (uuid 54624381-4904-4b34-ab1f-00b0fcbf5611))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "#PWR09") (unit 1)
         )
@@ -5640,7 +5640,7 @@
     )
     (pin "1" (uuid 1f6bcf31-93d2-4185-8640-80c7648ea108))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "#PWR015") (unit 1)
         )
@@ -5666,7 +5666,7 @@
     (pin "1" (uuid a163e5dc-41d2-47a7-a88d-8be589d9613c))
     (pin "2" (uuid 970b6577-823b-4690-9554-57d7b8254ce3))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "C1") (unit 1)
         )
@@ -5692,7 +5692,7 @@
     (pin "1" (uuid ef65982f-b4cb-45d9-bdc4-582dcedbce87))
     (pin "2" (uuid 0e2fc68e-07d9-42ae-b4c0-633721e2a17d))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "R9") (unit 1)
         )
@@ -5720,7 +5720,7 @@
     (pin "3" (uuid fa1a7b68-e2ba-4af0-9391-5323e8f0bba6))
     (pin "4" (uuid 590dd9f9-5cee-4077-8165-374ed1aa7a76))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "P1") (unit 1)
         )
@@ -5746,7 +5746,7 @@
     (pin "1" (uuid 70cf294d-d843-4e5c-8100-e60d062e1795))
     (pin "2" (uuid 95efa99d-682f-4cf1-9e83-0be3c8df562d))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "R12") (unit 1)
         )
@@ -5771,7 +5771,7 @@
     )
     (pin "1" (uuid ec35f77b-7431-4ee1-b05c-9cddb982ac92))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "#PWR022") (unit 1)
         )
@@ -5796,7 +5796,7 @@
     )
     (pin "1" (uuid c63d21f3-f95f-4756-b607-644d7397304e))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "#PWR018") (unit 1)
         )
@@ -5823,7 +5823,7 @@
     (pin "2" (uuid fb1f794a-7947-4160-9013-315497689810))
     (pin "3" (uuid 6030a8ec-2b53-4fe6-95f2-dd5f8cd5114c))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "U3") (unit 1)
         )
@@ -5850,7 +5850,7 @@
     (pin "2" (uuid 18de0d4e-2403-457a-9e3d-1c345f040b8d))
     (pin "3" (uuid 521611c5-9a65-4e59-b188-bb5084c00d0c))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "Q3") (unit 1)
         )
@@ -5876,7 +5876,7 @@
     (pin "1" (uuid 62fe5115-f881-48d2-b26e-788de10921d9))
     (pin "2" (uuid e7d7dbcc-9c50-4598-91cd-78505489af31))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "R18") (unit 1)
         )
@@ -5901,7 +5901,7 @@
     )
     (pin "1" (uuid 8b349d27-af8c-4e7c-91b8-3d26184000c2))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "#PWR03") (unit 1)
         )
@@ -5932,7 +5932,7 @@
     (pin "S1" (uuid b0e83998-3b73-4f6f-88cc-5458d75b9b3d))
     (pin "S2" (uuid 3da4f6d6-333f-49b2-ad61-d343ff5aeca0))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "P2") (unit 1)
         )
@@ -5959,7 +5959,7 @@
     (pin "2" (uuid 92282868-e639-4078-939d-519f1f10ab60))
     (pin "3" (uuid ccd3a27b-232e-4f02-9794-80f7944acb8b))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "Q6") (unit 1)
         )
@@ -5985,7 +5985,7 @@
     (pin "1" (uuid 50d60288-9aae-42d9-b02a-d47bc2cd9238))
     (pin "2" (uuid 4857043a-0896-4e35-95e0-7af76642dc15))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "R4") (unit 1)
         )
@@ -6011,7 +6011,7 @@
     (pin "1" (uuid 3a913051-dcb7-406b-9245-4b8069488920))
     (pin "2" (uuid dc36e727-d8d6-45e8-978d-afaa8bd7a5a1))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "R20") (unit 1)
         )
@@ -6037,7 +6037,7 @@
     (pin "1" (uuid e15116d3-fccf-4882-91e6-29c776acb0cd))
     (pin "2" (uuid 79d8a264-abf2-46a8-a02d-3fe18a57e199))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "R22") (unit 1)
         )
@@ -6062,7 +6062,7 @@
     )
     (pin "1" (uuid eb275be8-82fe-49f2-93e1-0c380cd4b4fc))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "H2") (unit 1)
         )
@@ -6088,7 +6088,7 @@
     (pin "1" (uuid c8b431d4-802d-4ddb-96e7-539a7fdb449e))
     (pin "2" (uuid 06c46744-4bb5-4762-85f8-1fb63d05b896))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "C10") (unit 1)
         )
@@ -6114,7 +6114,7 @@
     (pin "1" (uuid 274a785c-199a-43bf-b776-6fd838aedcfa))
     (pin "2" (uuid 1f5ca637-9906-41b5-b5eb-d2bb7fba7a2e))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "R17") (unit 1)
         )
@@ -6140,7 +6140,7 @@
     (pin "1" (uuid 72399020-9ab0-40a0-a9a9-f5c561d42c1f))
     (pin "2" (uuid b8284d5b-5752-41c7-8542-674d7a8b0918))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "C13") (unit 1)
         )
@@ -6166,7 +6166,7 @@
     (pin "1" (uuid 5779870c-9691-4f8e-b190-4c762b3c6bc9))
     (pin "2" (uuid fa579f58-0cc0-4f04-86c4-a1d4e4c92eef))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "BZ1") (unit 1)
         )
@@ -6192,7 +6192,7 @@
     (pin "1" (uuid f24a208e-91f2-49ae-9048-6a7425ab8353))
     (pin "2" (uuid 95a6e877-56d5-43a4-b6ef-ee8b0f672f8b))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "C4") (unit 1)
         )
@@ -6217,7 +6217,7 @@
     )
     (pin "1" (uuid 8fc935e1-a683-456f-b70b-52976bb61711))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "H4") (unit 1)
         )
@@ -6242,7 +6242,7 @@
     )
     (pin "1" (uuid c3784342-ef8a-4224-b7e4-334a4b9e724d))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "#PWR07") (unit 1)
         )
@@ -6268,7 +6268,7 @@
     (pin "1" (uuid f6d01cc2-9c7e-499b-94d7-9643947cc0ad))
     (pin "2" (uuid 315b8483-2990-455f-8e70-e2a132d23ded))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "P5") (unit 1)
         )
@@ -6298,7 +6298,7 @@
     (pin "5" (uuid 181bed1e-8012-4c00-84ab-9d0ae71820d7))
     (pin "6" (uuid d4bc3c4e-aed1-46f8-9229-cfa85d6521d4))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "P3") (unit 1)
         )
@@ -6324,7 +6324,7 @@
     (pin "1" (uuid aa377537-b25e-4232-95dd-cf876001e15d))
     (pin "2" (uuid 184b725b-a85a-4bff-85da-4f88fa85a909))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "D3") (unit 1)
         )
@@ -6350,7 +6350,7 @@
     (pin "1" (uuid 81bb1358-08eb-4514-aa9b-209bd7b36feb))
     (pin "2" (uuid 6779fedf-0250-4848-8f61-bdd45f52b7e7))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "R8") (unit 1)
         )
@@ -6375,7 +6375,7 @@
     )
     (pin "1" (uuid 422caba0-a12e-4131-b6e0-e2fddf147130))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "#PWR028") (unit 1)
         )
@@ -6400,7 +6400,7 @@
     )
     (pin "1" (uuid 3d53227b-c1f2-4433-880c-248627f5cd81))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "#PWR012") (unit 1)
         )
@@ -6425,7 +6425,7 @@
     )
     (pin "1" (uuid d95a328d-dcaa-4120-9817-5f1652023640))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "#PWR017") (unit 1)
         )
@@ -6450,7 +6450,7 @@
     )
     (pin "1" (uuid 1602f1a1-b1aa-40c7-8d5c-cf93438b154a))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "#PWR034") (unit 1)
         )
@@ -6490,7 +6490,7 @@
     (pin "3" (uuid 6ca50540-2ce2-4df8-acc6-631821c54dfe))
     (pin "4" (uuid 117211dd-ced8-44f9-8d46-9629803a0cde))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "D1") (unit 1)
         )
@@ -6515,7 +6515,7 @@
     )
     (pin "1" (uuid 8a1879b3-3212-41b9-b4a8-0e8cb90ffe9a))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "#PWR05") (unit 1)
         )
@@ -6540,7 +6540,7 @@
     )
     (pin "1" (uuid 6b791417-54c1-4829-8e16-e5cb6fe4883a))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "#PWR026") (unit 1)
         )
@@ -6566,7 +6566,7 @@
     (pin "1" (uuid 389f1f23-618c-4c19-ac4e-e06b3aa8b5ec))
     (pin "2" (uuid bcc6e9b0-956a-453b-a5c1-5c8af8e4d3a6))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "C11") (unit 1)
         )
@@ -6592,7 +6592,7 @@
     (pin "1" (uuid 9d59ffc9-5626-4a73-9aea-d53d78c1ec63))
     (pin "2" (uuid fd83a3c5-d73e-4630-8a35-4362d89a9f9f))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "C6") (unit 1)
         )
@@ -6617,7 +6617,7 @@
     )
     (pin "1" (uuid afb488d7-c459-41b3-8613-f4378ee85df3))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "H1") (unit 1)
         )
@@ -6642,7 +6642,7 @@
     )
     (pin "1" (uuid b5b8f702-235d-417c-9504-5640f462dbf5))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "#PWR035") (unit 1)
         )
@@ -6667,7 +6667,7 @@
     )
     (pin "1" (uuid c4ee1717-40b2-4f26-8f71-480cd824644a))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "#PWR025") (unit 1)
         )
@@ -6696,7 +6696,7 @@
     (pin "4" (uuid 9b7830e4-c385-4354-ae6a-40e7a58abf66))
     (pin "5" (uuid a80e7400-9b37-41e3-a1da-47fa83026b70))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "Q1") (unit 1)
         )
@@ -6728,7 +6728,7 @@
     (pin "7" (uuid 62f751fe-bd11-41f0-8886-6e8eab7b8136))
     (pin "8" (uuid 6a98adc9-1372-4365-bc5c-37d397d76fdc))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "U4") (unit 1)
         )
@@ -6754,7 +6754,7 @@
     (pin "1" (uuid a9a4d8df-2590-4ba4-97ba-5c95f9fdfd63))
     (pin "2" (uuid b8cd2b23-a771-4657-95c4-b9a464c9f039))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "R1") (unit 1)
         )
@@ -6782,7 +6782,7 @@
     (pin "3" (uuid 8d550300-b7b3-410d-b347-f21b518b658b))
     (pin "4" (uuid 9cc121d5-8a61-47a9-afca-0ebc3f9c997f))
     (instances
-      (project "Base-Flight-Computer"
+      (project "Base-Flight-Computer-Test"
         (path "/13f33ffc-3ab1-449a-9be0-c2c7f72f3b48"
           (reference "Y1") (unit 1)
         )
