@@ -5,11 +5,10 @@
   (paper "A4")
 
   (title_block
-    (title "Flight Computer Lite")
-    (date "2022-12-17")
+    (title "Base Flight Computer  - Test")
+    (date "2023-05-27")
     (rev "1.0")
-    (company "Sun Devil Rocketry Avionics")
-    (comment 1 "Author: Colton Acosta")
+    (company "Author: Colton Acosta")
   )
 
   (lib_symbols
