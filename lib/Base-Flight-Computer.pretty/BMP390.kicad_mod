@@ -1,6 +1,6 @@
 (footprint "BMP390" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (attr through_hole)
+  (attr smd)
   (fp_text reference "REF**" (at -0.3048 -1.5748) (layer "F.SilkS")
       (effects (font (size 0.32 0.32) (thickness 0.15)))
     (tstamp d91277bd-99fc-4f27-a4eb-0c5210ead3bf)

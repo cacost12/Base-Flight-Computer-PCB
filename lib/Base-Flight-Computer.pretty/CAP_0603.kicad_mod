@@ -1,7 +1,7 @@
 (footprint "CAP_0603" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (descr "<b>CAPACITOR</b>")
-  (attr through_hole)
+  (attr smd)
   (fp_text reference "REF**" (at 0 -1.27) (layer "F.SilkS")
       (effects (font (size 0.508 0.508) (thickness 0.0762)))
     (tstamp 45dcd5b9-e002-4839-8859-9eeef389b2b7)
