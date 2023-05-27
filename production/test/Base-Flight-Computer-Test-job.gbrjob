@@ -3,19 +3,19 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "(6.0.10)"
+      "Version": "7.0.1"
     },
-    "CreationDate": "2023-02-02T13:34:45-07:00"
+    "CreationDate": "2023-05-27T07:40:05-07:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "Flight-Computer-Lite",
-      "GUID": "466c6967-6874-42d4-936f-6d7075746572",
+      "Name": "Base-Flight-Computer-Test",
+      "GUID": "42617365-2d46-46c6-9967-68742d436f6d",
       "Revision": "rev?"
     },
     "Size": {
-      "X": 85.8758,
-      "Y": 30.1228
+      "X": 56.0054,
+      "Y": 25.627
     },
     "LayerNumber": 4,
     "BoardThickness": 4.69,
@@ -24,18 +24,18 @@
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.2,
-      "PadToTrack": 0.2,
-      "TrackToTrack": 0.2,
+      "PadToPad": 0.1524,
+      "PadToTrack": 0.1524,
+      "TrackToTrack": 0.127,
       "MinLineWidth": 0.1778,
       "TrackToRegion": 0.508,
       "RegionToRegion": 0.508
     },
     {
       "Layers": "Inner",
-      "PadToPad": 0.2,
-      "PadToTrack": 0.2,
-      "TrackToTrack": 0.2,
+      "PadToPad": 0.1524,
+      "PadToTrack": 0.1524,
+      "TrackToTrack": 0.127,
       "MinLineWidth": 0.1778,
       "TrackToRegion": 0.508,
       "RegionToRegion": 0.508
@@ -43,57 +43,57 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "Flight-Computer-Lite-F_Cu.gbr",
+      "Path": "Base-Flight-Computer-Test-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Flight-Computer-Lite-In1_Cu.gbr",
+      "Path": "Base-Flight-Computer-Test-In1_Cu.gbr",
       "FileFunction": "Copper,L2,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Flight-Computer-Lite-In2_Cu.gbr",
+      "Path": "Base-Flight-Computer-Test-In2_Cu.gbr",
       "FileFunction": "Copper,L3,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Flight-Computer-Lite-B_Cu.gbr",
+      "Path": "Base-Flight-Computer-Test-B_Cu.gbr",
       "FileFunction": "Copper,L4,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Flight-Computer-Lite-F_Paste.gbr",
+      "Path": "Base-Flight-Computer-Test-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Flight-Computer-Lite-B_Paste.gbr",
+      "Path": "Base-Flight-Computer-Test-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Flight-Computer-Lite-F_Silkscreen.gbr",
+      "Path": "Base-Flight-Computer-Test-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Flight-Computer-Lite-B_Silkscreen.gbr",
+      "Path": "Base-Flight-Computer-Test-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Flight-Computer-Lite-F_Mask.gbr",
+      "Path": "Base-Flight-Computer-Test-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "Flight-Computer-Lite-B_Mask.gbr",
+      "Path": "Base-Flight-Computer-Test-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "Flight-Computer-Lite-Edge_Cuts.gbr",
+      "Path": "Base-Flight-Computer-Test-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
