@@ -486,7 +486,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "../../CAD/Flight-Computer-Lite-Rev2.step",
+      "step": "../../CAD/Base-Flight-Computer-Test.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
